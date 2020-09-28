@@ -4,11 +4,6 @@
 ! --- Case from Blender Scene <center_modifiers>
 &HEAD CHID='center_modifiers' TITLE='Test centers' /
 &TIME T_END=1.0 /
-
-! --- Boundary conditions from related Blender Materials
-&SURF ID='Material' RGB=91,204,120 /
-&SURF ID='Material_blue' RGB=0,16,204 /
-&SURF ID='Material_red' RGB=255,0,0 /
  
 ! --- Geometric namelists from Blender Collection <Master Collection>
 ! MESH Cell Size: 0.100 m, 0.100 m, 0.100 m | Qty: 1000 | Aspect: 1.0 | Poisson: Yes
